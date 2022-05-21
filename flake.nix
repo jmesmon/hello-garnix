@@ -13,6 +13,7 @@
           unpackPhase = ":";
 
           buildPhase = ''
+            echo "HI"
             echo "Just building some things, don't mind me"
             cat > an-executable <<EOF
             echo "Hello from an executable!"
